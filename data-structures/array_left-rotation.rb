@@ -35,8 +35,8 @@ a = a.split(' ').map(&:to_i)
 
 # MY SOLUTION
 
-# number of times to rotate array (r)
-r = k%n
+# optimized number of times needed to rotate array (r)
+r = k % n
 
 # map
 a = a.map.with_index{|item, index| a[(index + r) % n] }
