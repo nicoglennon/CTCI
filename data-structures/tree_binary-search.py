@@ -14,9 +14,15 @@
 #         self.data = data
 #         self.left = None
 #         self.right = None
-#
 
+###############################
+
+# MY SOLUTION
+
+# array where tree will flatten
 arr = []
+
+# method to flatten tree into our array 'arr'
 def flatten_tree(root):
 
     if root != None:
