@@ -2,7 +2,7 @@
 
 # Input Format
 
-# The first line contains two space-separated integers denoting the respective values of n (the number of integers) and d (the number of left rotations you must perform). 
+# The first line contains two space-separated integers denoting the respective values of n (the number of integers) and d (the number of left rotations you must perform).
 # The second line contains n space-separated integers describing the respective elements of the array's initial state.
 
 # Constraints
@@ -41,8 +41,8 @@ r = k % n
 # map
 a = a.map.with_index{|item, index| a[(index + r) % n] }
 
-# print 
+# print
 a.each do |number|
-    print number
-    print " "
+  print number
+  print " "
 end
